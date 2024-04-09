@@ -9,7 +9,20 @@
 
 import cudaq
 import cupy as cp 
+import mpi4py
 from mpi4py import MPI
+
+# print(cudaq.__version__)
+
+# cupy_version = cp.__version__
+# print("CuPy Version:", cupy_version)
+
+# mpi4py_version = mpi4py.__version__
+# print("mpi4py Version:", mpi4py_version)
+
+#CUDA Quantum Version latest (https://github.com/NVIDIA/cuda-quantum 1c434b15044e9fe1df32af4a00d662aa270aa69e)
+#CuPy Version: 13.0.0
+#mpi4py Version: 3.1.5
 
 cp.random.seed(5)
 
